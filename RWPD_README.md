@@ -10,60 +10,60 @@ This website is designed to be a modern and user-friendly platform that allows v
 
 ---
 
+## 📋 Table of Contents
+
+- [Features](#🌟-features)
+- [JavaScript Functionalities](#🛠️-javascript-functionalities)
+- [Technologies Used](#💻-technologies-used)
+
+---
+
 ## 🌟 Features
 
 - **Responsive Navigation Menu**: 
-  - The navigation menu adapts seamlessly to different screen sizes, providing a user-friendly interface. 
-  - On mobile devices, the menu can be toggled open or closed by clicking the menu icon, ensuring easy access without cluttering the screen.
-  - Users can click on menu items to navigate to specific sections, which automatically closes the menu for a streamlined experience.
+  - Adapts seamlessly to different screen sizes.
+  - Toggle functionality on mobile for easy access.
+  - Auto-closes when a menu item is clicked.
 
 - **Active Scroll Sections**: 
-  - As users scroll down the page, the active section in the navigation menu is highlighted, allowing for quick reference and improved navigation.
-  - This feature enhances user awareness of their current location within the website, facilitating easier movement through content.
+  - Highlights the active section in the navigation menu during scroll.
+  - Improves user awareness and navigation efficiency.
 
 - **Dark Mode Toggle**: 
-  - Users can easily switch between light and dark themes, enhancing visual comfort based on their preferences and surrounding lighting conditions.
-  - The selected theme is saved in `localStorage`, so the website remembers the user's choice even after they refresh the page or revisit later.
+  - Easy switch between light and dark themes.
+  - Remembers user preference across sessions using `localStorage`.
 
 - **Scroll-to-Top Button**: 
-  - A conveniently placed button appears after the user scrolls down 560 pixels, allowing them to quickly return to the top of the page.
-  - This feature improves user experience by providing a fast and efficient way to navigate back to the beginning of the content.
-
+  - Button appears after scrolling down 560 pixels for quick navigation back to the top.
+  
 - **Smooth Reveal Animations**: 
-  - The website incorporates elegant animations that reveal content smoothly as users scroll through sections, creating a visually appealing experience.
-  - These animations enhance engagement by drawing attention to important content and improving the overall aesthetic of the website.
+  - Engaging animations that reveal content as users scroll, enhancing the visual experience.
 
 ---
 
 ## 🛠️ JavaScript Functionalities
 
 - **Responsive Menu Handling**: 
-  - A function is created to toggle the visibility of the navigation menu when the user clicks the menu icon on smaller screens. 
-  - This allows the menu to expand or collapse based on user interaction, ensuring a clean and organized interface.
+  - Toggles menu visibility on smaller screens for a clean interface.
 
 - **Section Highlighter**: 
-  - As the user scrolls, a function dynamically updates the active section in the navigation menu.
-  - It calculates the scroll position and compares it with the position and height of each section, highlighting the corresponding link in the navigation. 
-  - This feedback helps users keep track of their current location on the page.
+  - Dynamically updates active section as users scroll, providing visual feedback.
 
 - **Scroll Header Effects**: 
-  - A function changes the appearance of the header when the user scrolls past a specified point (200 pixels).
-  - This creates a visual cue that enhances the user's experience, indicating that they have scrolled down the page.
+  - Changes header appearance based on scroll position for user awareness.
 
 - **Dark Theme Management**: 
-  - A function allows users to toggle between light and dark themes with a button click.
-  - The user's choice is saved in `localStorage`, so when they return to the website, their preferred theme is automatically applied, providing a consistent experience.
+  - Allows easy theme switching with persistent preferences.
 
 - **Scroll Animations**: 
-  - Elements are revealed smoothly as the user scrolls to different sections.
-  - This is achieved using the ScrollReveal library, which applies animations based on the user’s scroll position, creating an engaging and interactive user experience.
+  - Implements smooth reveal animations for a more interactive experience.
 
 ---
 
 ## 💻 Technologies Used
 
-- **HTML**: Structure and content of the web pages.
-- **CSS**: Styling and responsiveness for an appealing layout.
-- **JavaScript**: Interactivity, including theme toggle and scroll animations.
+- **HTML**: Provides the structural foundation of the web pages.
+- **CSS**: Responsible for the styling and responsiveness of the layout, ensuring a visually appealing design.
+- **JavaScript**: Adds interactivity, including theme switching and scroll animations, making the website dynamic and user-friendly.
 
 ---
