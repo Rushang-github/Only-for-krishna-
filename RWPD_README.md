@@ -47,7 +47,7 @@ This website is designed to be a modern and user-friendly platform that allows v
   - Toggles menu visibility on smaller screens for a clean interface.
 
 - **Section Highlighter**: 
-  - Dynamically updates active section as users scroll, providing visual feedback.
+  - Dynamically updates the active section as users scroll, providing visual feedback.
 
 - **Scroll Header Effects**: 
   - Changes header appearance based on scroll position for user awareness.
